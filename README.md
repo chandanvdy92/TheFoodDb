@@ -82,6 +82,10 @@ You've successfully run and modified your React Native App. :partying_face:
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
 - If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
 
+## Project progress
+
+- 2026-04-30 — API base URL is read from **`API_BASE_URL` in `.env`** (via [`react-native-dotenv`](https://github.com/goatandsheep/react-native-dotenv)); **`src/config.ts`** exports a normalized URL and throws if unset; **`src/api/client.ts`** provides a shared axios instance. On first clone, copy **`.env.example`** to **`.env`** and set your base URL—do not commit `.env`. Restart Metro after changing env vars.
+
 # Troubleshooting
 
 If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
