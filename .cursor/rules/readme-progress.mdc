@@ -1,0 +1,24 @@
+---
+description: Keep README updated with progress; create README.md if absent
+alwaysApply: true
+---
+
+# README progress tracking
+
+While working on this project:
+
+1. **Update `README.md` at the repo root** when you complete meaningful milestones: add brief summaries, setup steps users need, notable decisions, or a short chronological log—whatever helps the next contributor (human or AI) stay oriented.
+2. **If there is no `README.md`** at the project root, create one with:
+   - A one-line project name or purpose.
+   - Minimal “Getting started” (clone, install, run) if inferable from the repo; otherwise a placeholder and a todo to fill once known.
+   - A **Project progress** (or equivalent) section to append future summaries.
+
+Prefer **additive, concise** edits (bullet updates, dated notes, short sections). Do not wipe the vendor/default React Native README content unless someone explicitly asks; append or integrate a distinct **Project progress** section.
+
+```markdown
+## Project progress
+
+- YYYY-MM-DD — Short summary of what changed or was decided.
+```
+
+When changes are trivial (typo fixes, one-line tweaks), README updates are optional unless they affect onboarding or documented behavior.
